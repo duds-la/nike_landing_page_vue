@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <!-- Nav -->
+    <Nav />
     <section class="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
@@ -29,6 +29,8 @@
 </template>
 <script setup>
 import {Hero, CustomerReview, Footer, PopularProducts, Services,
-  SpecialOffer, Subscribe, SuperQuality} from './sections/index';
+SpecialOffer, Subscribe, SuperQuality} from './sections/index';
+import Nav from './components/Nav.vue'
+
 </script>
 
